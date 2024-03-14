@@ -24,7 +24,7 @@ To use the web scraping script:
    import requests as rq
    from bs4 import BeautifulSoup
    ```
-# Choose a Website you want to scrape here is the Website that i used for Scrapping
+### Choose a Website you want to scrape here is the Website that i used for Scrapping
 
 ![Screenshot 2024-03-14 183824](https://github.com/Phanisharan/WebScrapping/assets/143081814/3993f4d1-c094-4871-9f49-a15295c1cbd4)
 
@@ -32,7 +32,7 @@ To use the web scraping script:
    ```python
    response = rq.get('https://www.bikewale.com/hero-bikes/')
    ```
-# Make Sure to Print the response for the Site you are using for Scrapping if you get <Response 200> then you can Extract the contents in the site if not go for the another site 
+### Make Sure to Print the response for the Site you are using for Scrapping if you get <Response 200> then you can Extract the contents in the site if not go for the another site 
 
 3. Parse the HTML content of the response:
    ```python
