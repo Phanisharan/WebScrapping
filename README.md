@@ -2,6 +2,18 @@
 
 This project utilizes Python with BeautifulSoup and Pandas to scrape data from the Multiple websites.
 
+## Description
+
+I have implemented a web scraping script using Python's BeautifulSoup library to extract data from the different websites.
+The scraped data includes [describe the data you scraped, e.g., names, models, prices, specifications, images, links]. 
+The extracted data is then processed and analyzed using Pandas for further insights.
+
+## Requirements
+
+- Python 3.x
+- BeautifulSoup
+- Pandas
+
 ## Definitions
 
 - **Web Scraping**:
@@ -15,18 +27,6 @@ This project utilizes Python with BeautifulSoup and Pandas to scrape data from t
 
 - **pandas**:
   pandas is a powerful Python library for data manipulation and analysis. It provides data structures and functions for working with structured data, such as tables and time series. pandas is widely used in data science, finance, economics, and other fields for tasks such as data cleaning, exploration, transformation, and visualization.
-
-## Description
-
-I have implemented a web scraping script using Python's BeautifulSoup library to extract data from the different websites.
-The scraped data includes [describe the data you scraped, e.g., names, models, prices, specifications, images, links]. 
-The extracted data is then processed and analyzed using Pandas for further insights.
-
-## Requirements
-
-- Python 3.x
-- BeautifulSoup
-- Pandas
 
 ## Usage
 
@@ -84,6 +84,8 @@ To use the web scraping script:
      ```python
      image = soup.find_all('img', class_='o-bXKmQE o-cgkaRG o-cQfblS o-bNxxEB o-pGqQl o-wBtSi o-bwUciP o-btTZkL o-bfyaNx o-eAZqQI')
      ```
+     
+### By using Pandas now you can structure the data
 
 5. Structuring the extracted data into a DataFrame using pandas:
    ```python
