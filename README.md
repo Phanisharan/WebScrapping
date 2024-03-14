@@ -2,6 +2,20 @@
 
 This project utilizes Python with BeautifulSoup and Pandas to scrape data from the Multiple websites.
 
+## Definitions
+
+- **Web Scraping**:
+  Web scraping is the process of automatically extracting data from websites. It involves retrieving information from web pages, parsing and extracting relevant data, and saving it for further analysis or use. Web scraping is commonly used in various fields such as data mining, market research, and content aggregation.
+
+- **Python**:
+  Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including object-oriented, imperative, and functional programming. Python is widely used in web development, data analysis, artificial intelligence, scientific computing, and more.
+
+- **BeautifulSoup**:
+  BeautifulSoup is a Python library used for web scraping and HTML parsing. It provides tools for navigating, searching, and manipulating HTML and XML documents. With BeautifulSoup, developers can easily extract data from web pages by locating and extracting specific elements based on their tags, attributes, and content.
+
+- **pandas**:
+  pandas is a powerful Python library for data manipulation and analysis. It provides data structures and functions for working with structured data, such as tables and time series. pandas is widely used in data science, finance, economics, and other fields for tasks such as data cleaning, exploration, transformation, and visualization.
+
 ## Description
 
 I have implemented a web scraping script using Python's BeautifulSoup library to extract data from the different websites.
@@ -86,7 +100,7 @@ To use the web scraping script:
    ```python
    df.to_csv('Bikes.csv')
    ```
-### Here is the Final output how you get the information in a website with a Structed format in using pandas 
+### Here is the Final output how you get the information of a website with a Structed format using pandas 
 
 ![Screenshot 2024-03-14 184352](https://github.com/Phanisharan/WebScrapping/assets/143081814/e9a4a6c1-ce5d-47fd-865f-8de9feace80c)
 
@@ -97,7 +111,7 @@ To use the web scraping script:
 
 Feel free to explore the extracted data and analyze it further using the structured DataFrame.
 
-### Here are the Few sites you can use : Flipkart, Bikewale, ibmd, ebay, walmart etc.
+### Here are the Few sites you can use : Flipkart, Bikewale, imbd, ebay, walmart etc.
 
 
 
