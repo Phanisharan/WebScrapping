@@ -86,12 +86,18 @@ To use the web scraping script:
    ```python
    df.to_csv('Bikes.csv')
    ```
+### Here is the Final output how you get the information in a website with a Structed format in using pandas 
 
-Make sure to replace the URL in the `rq.get()` function with the appropriate one for the specific Website you want to scrape.
+![Screenshot 2024-03-14 184352](https://github.com/Phanisharan/WebScrapping/assets/143081814/e9a4a6c1-ce5d-47fd-865f-8de9feace80c)
+
+
+### Note:
+    - Make sure to replace the URL in the `rq.get()` function with the appropriate one for the specific Website you want to scrape.
+    - Extract the website only those Who gives the response as 200
 
 Feel free to explore the extracted data and analyze it further using the structured DataFrame.
 
-Here are the Few sites you can use : Flipkart, Bikewale, ibmd, ebay, walmart etc.
+### Here are the Few sites you can use : Flipkart, Bikewale, ibmd, ebay, walmart etc.
 
 
 
